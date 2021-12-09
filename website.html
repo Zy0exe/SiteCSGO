@@ -1,51 +1,38 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Site Csgo</title>
-        <link rel="stylesheet" href="css/style.css" content="width-device-width, initial-scaçe=1.0">
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    </head>
-    <input type="checkbox" id="check">
-    <label for="check">
-      <i class="fas fa-bars" id="butao"></i>
-      <i class="fas fa-times" id="fechar"></i>
-    </label>
-    <div class="barra_lateral">
-      <header> Menu </header>
-
-      <a href="geral.html" class="active">
-        <i class="fas fa-stream"></i>
-        <span> Geral </span>
-      </a>
-
-      <a href="game_content.html">
-        <i class="fas fa-calendar"></i>
-        <span> Games </span>
-      </a>
-
-      <a href="about.html">
-        <i class="fas fa-question-circle"></i>
-        <span> Acerca </span>
-      </a>
-
-      <a href="link.html">
-        <i class="fas fa-link"></i>
-        <span> Links </span>
-      </a>
-
-    </div>
-
-    <style>
-      body {
-          background-image: url("images/otimizar-pc-csgo-maximo-fps.png");
-          background-repeat: no-repeat;
-          background-attachment: fixed;
-          background-size: cover;
-          background-size: 100% 100%;
-      }
-      </style>
-<body>
-
-</body>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Site CSGO | RC Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">Projeto RC - Natal Edition</label>
+      <ul>
+        <li><a class="active" href="website.html">Menu Principal</a></li>
+        <li><a href="about.html">Acerca Do Jogo</a></li>
+        <li><a href="buy_steam.html">Comprar Jogo</a></li>
+        <li><a href="#">Contacto</a></li>
+        <li><a href="#">Feedback</a></li>
+      </ul>
+    </nav>
+    <section></section>
+    <div id="neve"></div>
+    <script src="js/snow.js"></script>
+  </body>
+  <style>
+    body {
+        background-image: url("images/cs.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-size: 100% 100%;
+    }
+    </style>
 </html>
