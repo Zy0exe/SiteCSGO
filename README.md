@@ -5,7 +5,7 @@ Basically, theme was selected by  my class and we got "Games", i selected csgo l
 
 Features:
 - A shitty js script that adds "snow" because of the christmas era stonks
-- Fully responsive website works on all devices and platforms
+- Fully responsive website works on all devices and platforms (or i think it does lol)
 - Editable css (Fancy animations lol)
 - uses Font awesome icons
 
@@ -18,9 +18,12 @@ Inside Game Info (Not Finished):
 <img src="https://media.discordapp.net/attachments/692690987696390216/918655607052075038/unknown.png?width=1346&height=684">
 
 
-Phone View ❓ (Not finished):
+Phone View (ghetto)❓ (Not finished):
 
 <img src="https://media.discordapp.net/attachments/692690987696390216/918656331295117332/unknown.png?width=412&height=684">
 
 
 Shit is nowhere near done as it's due 16 december and i have a lot to do on it im fucked basically
+
+Planned Features:
+- Making the "about game" using the menu style from about.css (side bar) having each category on it gameplay skins game story etc.
