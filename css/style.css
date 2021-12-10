@@ -4,6 +4,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    user-select: none; /* supported by Chrome and Opera */
   }
   body{
     font-family: montserrat;

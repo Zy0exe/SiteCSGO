@@ -18,14 +18,14 @@ document.addEventListener('DOMContentLoaded', function(){
                     "value": 0.7,
                     "random": false,
                     "anim": {
-                        "enable": false
+                        "enable": true
                     }
                 },
                 "size": {
                     "value": 5,
                     "random": true,
                     "anim": {
-                        "enable": false
+                        "enable": true
                     }
                 },
                 "line_linked": {
@@ -49,10 +49,10 @@ document.addEventListener('DOMContentLoaded', function(){
             "interactivity": {
                 "events": {
                     "onhover": {
-                        "enable": false
+                        "enable": true
                     },
                     "onclick": {
-                        "enable": false
+                        "enable": true
                     },
                     "resize": false
                 }
