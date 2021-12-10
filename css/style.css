@@ -4,7 +4,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-    user-select: none; /* supported by Chrome and Opera */
+    user-select: none; /* Ninguem aqui vai selecionar texto no site hehe */
   }
   body{
     font-family: montserrat;
@@ -53,6 +53,7 @@
   #check{
     display: none;
   }
+  /* Parte "Responsiva */
   @media (max-width: 952px){
     label.logo{
       font-size: 20px;
@@ -204,9 +205,10 @@ display: block;
   text-decoration: none;
 }
 .footer-menu ul li a:hover{
-  color: #27bcda;
+  color: #827c7c4a;
 }
 
+/* Needs Editing */
 @media (max-width:500px) {
 .footer-menu ul{
   display: flex;
